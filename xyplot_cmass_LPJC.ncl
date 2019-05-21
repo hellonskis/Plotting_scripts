@@ -67,12 +67,13 @@ begin
 
   resp@gsnPanelFigureStringsFontHeightF = 0.017
   resp@amJust                           = "BottomRight"
-;  resp@amOrthogonalPosF                 = 0.5
+; resp@amOrthogonalPosF                 = 0.5
   resp@gsnMaximize                      = True
   resp@gsnPanelRowSpec                  = True
   resp@gsnPaperOrientation              = "portrait"
 
   gsn_panel(wks,plot,(/1/),resp)
+  
 end
 
 
